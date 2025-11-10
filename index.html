@@ -14,29 +14,37 @@
 
   <main>
     <section class="calculator">
-      <input type="text" id="display" class="display" disabled>
+      <h2>Обычный калькулятор</h2>
+
+      <div class="display">
+        <input type="text" id="display" placeholder="0" disabled>
+      </div>
+
       <div class="buttons">
-        <button class="btn clear" id="clear">C</button>
-        <button class="btn operator" data-value="/">÷</button>
-        <button class="btn operator" data-value="*">×</button>
-        <button class="btn operator" data-value="-">−</button>
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn operator">÷</button>
 
-        <button class="btn" data-value="7">7</button>
-        <button class="btn" data-value="8">8</button>
-        <button class="btn" data-value="9">9</button>
-        <button class="btn operator" data-value="+">+</button>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn operator">×</button>
 
-        <button class="btn" data-value="4">4</button>
-        <button class="btn" data-value="5">5</button>
-        <button class="btn" data-value="6">6</button>
-        <button class="btn" id="equals">=</button>
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn operator">−</button>
 
-        <button class="btn" data-value="1">1</button>
-        <button class="btn" data-value="2">2</button>
-        <button class="btn" data-value="3">3</button>
-        <button class="btn" data-value=".">.</button>
+        <button class="btn">0</button>
+        <button class="btn">.</button>
+        <button class="btn equals">=</button>
+        <button class="btn operator">+</button>
+      </div>
 
-        <button class="btn" data-value="0" style="grid-column: span 4;">0</button>
+      <div class="extra-buttons">
+        <button class="btn clear">C</button>
+        <button class="btn history">🕓 History</button>
       </div>
     </section>
 
