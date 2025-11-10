@@ -54,7 +54,7 @@ body.dark .calculator {
 }
 
 .display input {
-  width: 100%;
+  /* width: 100%; */
   padding: 16px;
   border-radius: 12px;
   border: 1px solid #d2d2d7;
